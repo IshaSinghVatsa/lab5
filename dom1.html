@@ -61,28 +61,28 @@
 
                 var i
                 var details = []
-                Movie = xmlDoc.createElement("TicketManagement")
+                TicketManagement = xmlDoc.createElement("TicketManagement")
                 details[0] = xmlDoc.createElement("CustomerName");
                 details[0].appendChild(xmlDoc.createTextNode(a))
-                Movie.appendChild(details[0])
+                TicketManagement.appendChild(details[0])
                 details[1] = xmlDoc.createElement("SportsName")
                 details[1].appendChild(xmlDoc.createTextNode(b))
-                Movie.appendChild(details[1])
+                TicketManagement.appendChild(details[1])
                 details[2] = xmlDoc.createElement("SportsId")
                 details[2].appendChild(xmlDoc.createTextNode(c))
-                Movie.appendChild(details[2])
+                TicketManagement.appendChild(details[2])
                 details[3] = xmlDoc.createElement("city")
                 details[3].appendChild(xmlDoc.createTextNode(d))
-                Movie.appendChild(details[3])
+                TicketManagement.appendChild(details[3])
                 details[4] = xmlDoc.createElement("StadiumName")
                 details[4].appendChild(xmlDoc.createTextNode(e))
-                Movie.appendChild(details[4])
+                TicketManagement.appendChild(details[4])
                 details[5] = xmlDoc.createElement("StadiumId")
                 details[5].appendChild(xmlDoc.createTextNode(f))
-                Movie.appendChild(details[5])
+                TicketManagement.appendChild(details[5])
                 details[6] = xmlDoc.createElement("TicketId")
                 details[6].appendChild(xmlDoc.createTextNode(g))
-                Movie.appendChild(details[6])
+                TicketManagement.appendChild(details[6])
 
 
                 xmlDoc.documentElement.appendChild(TicketManagement);
